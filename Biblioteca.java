@@ -37,4 +37,13 @@ public class Biblioteca {
         }
         return null;
     }
+        public int contarPrestados() {
+        int contador = 0;
+        for (Libro libro : libros) {
+            if (libro.isPrestado()) {
+                contador++;
+            }
+        }
+        return contador;
+    }
 }
