@@ -43,6 +43,7 @@ public class Libro {
     public String toString() {
         return "Libro: " + titulo + " | Autor: " + autor + " | Prestado: " + prestado;
     }
+
     
     public String getInfo() {
     return titulo + " - " + autor;
